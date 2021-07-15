@@ -1,0 +1,96 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>In-Page Timer</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+    </style>
+  </head>
+  <head>
+    <script src="jquery.min.js"></script>
+    
+    
+    <link rel="stylesheet" type="text/css" href="common.css">
+    </head>
+
+    <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <title>CountDown Timer Extension</title>
+    
+      <meta name="description" content="Simple CountDown Timer with an alarm at the end.">
+      <meta name="author" content="TYD">
+    
+    
+    
+        <script type='text/javascript' src='pqr.js'></script>
+    
+    
+    </head>
+  <body>
+    <h1>Timer</h1>
+    <label for="interval_mins">Minutes: </label><input type="number" id="interval_mins" value="0"/>
+    <label for="interval_secs">Seconds: </label><input type="number" id="interval_secs" value="0"/>
+    <button id="btn">Start</button><br>
+    <button id="pausebtn">Pause</button>
+    <button id="resumebtn">Resume</button>
+    <button id="resetbtn">Reset</button>
+    
+    <script src="popup.js"></script>
+
+    <div><h1>Manage your To-Do List</h1></div>
+	<div class="main">
+	<div id="taskDiv" class="header">
+  	<input type="text" id="taskInput" class="defaultTextBox" style="width: 220px;" placeholder="Enter the task">
+  	<br></br>
+  	<button id="addTask" class="addTask button">Add</button>
+  	<button id='clearTasksCompleted' class="button">Clear Completed</button>
+  	<button id='clearTasks'class="button">Clear All</button>
+  
+
+	</div>
+
+	<div id="alert"></div>
+	<ul id="taskUL" title="Click to mark the task completed"></ul>
+
+	</div>
+	<script src="abc.js"></script>
+
+  <h1>Block Site</h1>
+<p>
+  <strong>Block Site</strong> 
+  Type the sites you would like to block the access to in a format like <strong>facebook.com</strong>, type them in new line each.
+  Sites will be blocked on their next attempted visit if enabled.
+</p>
+
+<textarea id="textarea" rows="10" cols="30" spellcheck="false"></textarea>
+<br>
+
+<div id="controls">
+  <button id="save">Save</button>
+  <strong>Enabled?</strong><input id="checkbox" type="checkbox" checked="checked">
+</div>
+
+
+
+<script src="options.js"></script>
+<div>
+<h1>Alarm</h1>
+<h2> <div id="time">MM:SS</div> </h2>
+<input type="text" value=15 style="width:100px"  id="Minutes" >  <br>
+<button style="width:100px"> Start Timer </button>
+</div>
+<h1>Track of time</h1>
+<a href=""></a> <!-- Eat focus -->
+    <script src="common.js"></script>
+    <script src="xyz.js"></script>
+  
+  </body>
+</html>
