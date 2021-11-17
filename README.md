@@ -12,4 +12,4 @@ Features:
 
 5)Track of time - Ever open an email, do a task, then wonder how long that took? then just look at this. It records how long it's been since the URL has changed.
 
-Installation Checkout or download the repository Navigate to [link](chrome://extensions/) using the Chrome address bar Enable Developer mode Press the "Load unpacked extension..." button Navigate to, and select the productivity-management folder in the repository and select it The extension should install and a button appears in the browser
+Installation Checkout or download the repository Navigate to chrome://extensions/ using the Chrome address bar Enable Developer mode Press the "Load unpacked extension..." button Navigate to, and select the productivity-management folder in the repository and select it The extension should install and a button appears in the browser
