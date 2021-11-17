@@ -1,7 +1,8 @@
 # productivity-management
 productivity-management is a Chrome extension to help people and analyze their productivity. It offers a suite of time management tools that track your work and break times, reminding you when it's time to get up and move around or get back to work.
 
-Features 1)Timer -you can set a time for how long you want to work on that tab and it’ll remind you when the time is up.
+Features:
+1)Timer -you can set a time for how long you want to work on that tab and it’ll remind you when the time is up.
 
 2)Manage your To-do-list - you can create a list of tasks to perform and mark it complete when it’s done.
 
