@@ -12,7 +12,7 @@ Productivity-management is a **Chrome extension** to help people and analyze the
  
  # Installation
  * Checkout or download the repository
- * Navigate to [link](chrome://extensions/) using the Chrome address bar.
+ * Navigate to chrome://extensions/ using the Chrome address bar.
  * Enable Developer mode
  * Press the "Load unpacked extension..." button
  * Navigate to, and select the productivity-management folder in the repository and select it
