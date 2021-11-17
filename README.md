@@ -7,7 +7,9 @@ Productivity-management is a **Chrome extension** to help people and analyze the
 * **Alarm** - one can set an alarm or reminder for tasks, and it will remind them of the task
 * **Track of time** - Ever open an email, do a task, then wonder how long that took? then just look at this. It records how long it's been since the URL has changed
  ![image1](https://github.com/Aditi760/productivity-management/blob/main/productivity-management/screenshorts%20folder/productivity%20management1.png)
- ![image2](https://github.com/Aditi760/productivity-management/blob/main/productivity-management/screenshorts%20folder/productivity%20management%202.png)
+ 
+ ![image2](https://github.com/Aditi760/productivity-management/blob/main/productivity-management/screenshorts%20folder/productivity%20management%202.png
+)
  
  
  
